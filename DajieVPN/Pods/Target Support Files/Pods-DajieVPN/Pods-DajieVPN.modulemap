@@ -1,0 +1,6 @@
+framework module Pods_DajieVPN {
+  umbrella header "Pods-DajieVPN-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0409048F1E8CAF5D003ECD95 /* DVAdInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409048E1E8CAF5D003ECD95 /* DVAdInterstitial.swift */; };
+		040904A61E934C1A003ECD95 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040904A21E934C1A003ECD95 /* Configuration.swift */; };
+		040904A71E934C1A003ECD95 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040904A31E934C1A003ECD95 /* KeychainWrapper.swift */; };
+		040904A81E934C1A003ECD95 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040904A41E934C1A003ECD95 /* Observer.swift */; };
+		040904A91E934C1A003ECD95 /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040904A51E934C1A003ECD95 /* VPNManager.swift */; };
+		040904B91E964223003ECD95 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 040904B41E964223003ECD95 /* RECommonFunctions.m */; };
+		040904BA1E964223003ECD95 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 040904B61E964223003ECD95 /* RESideMenu.m */; };
+		040904BB1E964223003ECD95 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 040904B81E964223003ECD95 /* UIViewController+RESideMenu.m */; };
+		041D9E341EA317920092F90D /* DVColorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E321EA317920092F90D /* DVColorConfig.swift */; };
+		041D9E351EA317920092F90D /* DVConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E331EA317920092F90D /* DVConfig.swift */; };
+		041D9E371EA317F20092F90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041D9E361EA317F20092F90D /* Assets.xcassets */; };
+		041D9E711EA5EE660092F90D /* DVNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E5F1EA5EE660092F90D /* DVNavigationController.swift */; };
+		041D9E721EA5EE660092F90D /* DVRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E601EA5EE660092F90D /* DVRootViewController.swift */; };
+		041D9E731EA5EE660092F90D /* DVFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E631EA5EE660092F90D /* DVFirstViewController.swift */; };
+		041D9E741EA5EE660092F90D /* DVServerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E641EA5EE660092F90D /* DVServerListViewController.swift */; };
+		041D9E751EA5EE660092F90D /* DVLeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E681EA5EE660092F90D /* DVLeftMenuViewController.swift */; };
+		041D9E761EA5EE660092F90D /* DVAboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E6C1EA5EE660092F90D /* DVAboutUsViewController.swift */; };
+		041D9E771EA5EE660092F90D /* DVHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E6D1EA5EE660092F90D /* DVHelpViewController.swift */; };
+		041D9E781EA5EE660092F90D /* DVSocialShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E6F1EA5EE660092F90D /* DVSocialShareView.swift */; };
+		041D9E791EA5EE660092F90D /* DVSocialShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041D9E701EA5EE660092F90D /* DVSocialShareView.xib */; };
+		041D9E7C1EA5F0380092F90D /* DVServerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E7A1EA5F0380092F90D /* DVServerListCell.swift */; };
+		041D9E7D1EA5F0380092F90D /* DVServerListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041D9E7B1EA5F0380092F90D /* DVServerListCell.xib */; };
+		041D9E7F1EA600F30092F90D /* DVUserDefaultsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D9E7E1EA600F30092F90D /* DVUserDefaultsConfig.swift */; };
+		042200431E9B8D7800768051 /* GCSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 042200421E9B8D7800768051 /* GCSocial.m */; };
+		047E010B1E874FF5005E9D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E010A1E874FF5005E9D8A /* AppDelegate.swift */; };
+		047E01101E874FF5005E9D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E010E1E874FF5005E9D8A /* Main.storyboard */; };
+		047E01151E874FF5005E9D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E01131E874FF5005E9D8A /* LaunchScreen.storyboard */; };
+		047E01261E8754AF005E9D8A /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047E01251E8754AF005E9D8A /* NetworkExtension.framework */; };
+		A458AC1E89B173FFAD1FF686 /* Pods_DajieVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EC2841A606FF98F8F1038 /* Pods_DajieVPN.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0409048E1E8CAF5D003ECD95 /* DVAdInterstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVAdInterstitial.swift; sourceTree = "<group>"; };
+		040904A21E934C1A003ECD95 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		040904A31E934C1A003ECD95 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		040904A41E934C1A003ECD95 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		040904A51E934C1A003ECD95 /* VPNManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		040904B31E964223003ECD95 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		040904B41E964223003ECD95 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		040904B51E964223003ECD95 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		040904B61E964223003ECD95 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		040904B71E964223003ECD95 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		040904B81E964223003ECD95 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		041D9E321EA317920092F90D /* DVColorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVColorConfig.swift; sourceTree = "<group>"; };
+		041D9E331EA317920092F90D /* DVConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVConfig.swift; sourceTree = "<group>"; };
+		041D9E361EA317F20092F90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041D9E5F1EA5EE660092F90D /* DVNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVNavigationController.swift; sourceTree = "<group>"; };
+		041D9E601EA5EE660092F90D /* DVRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVRootViewController.swift; sourceTree = "<group>"; };
+		041D9E631EA5EE660092F90D /* DVFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVFirstViewController.swift; sourceTree = "<group>"; };
+		041D9E641EA5EE660092F90D /* DVServerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVServerListViewController.swift; sourceTree = "<group>"; };
+		041D9E681EA5EE660092F90D /* DVLeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVLeftMenuViewController.swift; sourceTree = "<group>"; };
+		041D9E6C1EA5EE660092F90D /* DVAboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVAboutUsViewController.swift; sourceTree = "<group>"; };
+		041D9E6D1EA5EE660092F90D /* DVHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVHelpViewController.swift; sourceTree = "<group>"; };
+		041D9E6F1EA5EE660092F90D /* DVSocialShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVSocialShareView.swift; sourceTree = "<group>"; };
+		041D9E701EA5EE660092F90D /* DVSocialShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVSocialShareView.xib; sourceTree = "<group>"; };
+		041D9E7A1EA5F0380092F90D /* DVServerListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVServerListCell.swift; sourceTree = "<group>"; };
+		041D9E7B1EA5F0380092F90D /* DVServerListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVServerListCell.xib; sourceTree = "<group>"; };
+		041D9E7E1EA600F30092F90D /* DVUserDefaultsConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVUserDefaultsConfig.swift; sourceTree = "<group>"; };
+		042200411E9B8D7800768051 /* GCSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCSocial.h; sourceTree = "<group>"; };
+		042200421E9B8D7800768051 /* GCSocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCSocial.m; sourceTree = "<group>"; };
+		043273221E8A4C4800A473CA /* DajieVPN-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DajieVPN-Bridging-Header.h"; sourceTree = "<group>"; };
+		047E01071E874FF5005E9D8A /* DajieVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DajieVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047E010A1E874FF5005E9D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047E010F1E874FF5005E9D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047E01141E874FF5005E9D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047E01161E874FF5005E9D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047E01251E8754AF005E9D8A /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		047E01271E8754AF005E9D8A /* DajieVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DajieVPN.entitlements; sourceTree = "<group>"; };
+		A71838A7557551E1493B4645 /* Pods-DajieVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DajieVPN.release.xcconfig"; path = "Pods/Target Support Files/Pods-DajieVPN/Pods-DajieVPN.release.xcconfig"; sourceTree = "<group>"; };
+		AFF2993984B3A1D323CE70C0 /* Pods-DajieVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DajieVPN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DajieVPN/Pods-DajieVPN.debug.xcconfig"; sourceTree = "<group>"; };
+		C46EC2841A606FF98F8F1038 /* Pods_DajieVPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DajieVPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047E01041E874FF5005E9D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047E01261E8754AF005E9D8A /* NetworkExtension.framework in Frameworks */,
+				A458AC1E89B173FFAD1FF686 /* Pods_DajieVPN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0409049A1E934BEB003ECD95 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E5E1EA5EE660092F90D /* Base */,
+				041D9E611EA5EE660092F90D /* First */,
+				041D9E661EA5EE660092F90D /* LeftMenu */,
+				041D9E6A1EA5EE660092F90D /* Other */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0409049B1E934BEB003ECD95 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				040904A21E934C1A003ECD95 /* Configuration.swift */,
+				040904A31E934C1A003ECD95 /* KeychainWrapper.swift */,
+				040904A41E934C1A003ECD95 /* Observer.swift */,
+				040904A51E934C1A003ECD95 /* VPNManager.swift */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		040904AA1E934C60003ECD95 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		040904B11E964223003ECD95 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				040904B21E964223003ECD95 /* RESideMenu */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		040904B21E964223003ECD95 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				040904B31E964223003ECD95 /* RECommonFunctions.h */,
+				040904B41E964223003ECD95 /* RECommonFunctions.m */,
+				040904B51E964223003ECD95 /* RESideMenu.h */,
+				040904B61E964223003ECD95 /* RESideMenu.m */,
+				040904B71E964223003ECD95 /* UIViewController+RESideMenu.h */,
+				040904B81E964223003ECD95 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		041D9E311EA317920092F90D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E321EA317920092F90D /* DVColorConfig.swift */,
+				041D9E331EA317920092F90D /* DVConfig.swift */,
+				041D9E7E1EA600F30092F90D /* DVUserDefaultsConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		041D9E5E1EA5EE660092F90D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E5F1EA5EE660092F90D /* DVNavigationController.swift */,
+				041D9E601EA5EE660092F90D /* DVRootViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		041D9E611EA5EE660092F90D /* First */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E621EA5EE660092F90D /* Controller */,
+				041D9E651EA5EE660092F90D /* View */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		041D9E621EA5EE660092F90D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E631EA5EE660092F90D /* DVFirstViewController.swift */,
+				041D9E641EA5EE660092F90D /* DVServerListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		041D9E651EA5EE660092F90D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E7A1EA5F0380092F90D /* DVServerListCell.swift */,
+				041D9E7B1EA5F0380092F90D /* DVServerListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041D9E661EA5EE660092F90D /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E671EA5EE660092F90D /* Controller */,
+				041D9E691EA5EE660092F90D /* View */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		041D9E671EA5EE660092F90D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E681EA5EE660092F90D /* DVLeftMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		041D9E691EA5EE660092F90D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041D9E6A1EA5EE660092F90D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E6B1EA5EE660092F90D /* Controller */,
+				041D9E6E1EA5EE660092F90D /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		041D9E6B1EA5EE660092F90D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E6C1EA5EE660092F90D /* DVAboutUsViewController.swift */,
+				041D9E6D1EA5EE660092F90D /* DVHelpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		041D9E6E1EA5EE660092F90D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041D9E6F1EA5EE660092F90D /* DVSocialShareView.swift */,
+				041D9E701EA5EE660092F90D /* DVSocialShareView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042200401E9B8D6700768051 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				042200411E9B8D7800768051 /* GCSocial.h */,
+				042200421E9B8D7800768051 /* GCSocial.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		043273271E8B7DCB00A473CA /* Advertisement */ = {
+			isa = PBXGroup;
+			children = (
+				0409048E1E8CAF5D003ECD95 /* DVAdInterstitial.swift */,
+			);
+			path = Advertisement;
+			sourceTree = "<group>";
+		};
+		047E00FE1E874FF5005E9D8A = {
+			isa = PBXGroup;
+			children = (
+				047E01091E874FF5005E9D8A /* DajieVPN */,
+				047E01081E874FF5005E9D8A /* Products */,
+				047E01241E8754AF005E9D8A /* Frameworks */,
+				2B9FDCC4888C0178BA679E28 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		047E01081E874FF5005E9D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047E01071E874FF5005E9D8A /* DajieVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047E01091E874FF5005E9D8A /* DajieVPN */ = {
+			isa = PBXGroup;
+			children = (
+				0409049A1E934BEB003ECD95 /* UI */,
+				041D9E311EA317920092F90D /* Config */,
+				043273271E8B7DCB00A473CA /* Advertisement */,
+				040904B11E964223003ECD95 /* Additions */,
+				042200401E9B8D6700768051 /* Service */,
+				040904AA1E934C60003ECD95 /* Resource */,
+				0409049B1E934BEB003ECD95 /* VPN */,
+				047E010A1E874FF5005E9D8A /* AppDelegate.swift */,
+				047E01161E874FF5005E9D8A /* Info.plist */,
+				047E01271E8754AF005E9D8A /* DajieVPN.entitlements */,
+				043273221E8A4C4800A473CA /* DajieVPN-Bridging-Header.h */,
+				047E01131E874FF5005E9D8A /* LaunchScreen.storyboard */,
+				041D9E361EA317F20092F90D /* Assets.xcassets */,
+				047E010E1E874FF5005E9D8A /* Main.storyboard */,
+			);
+			path = DajieVPN;
+			sourceTree = "<group>";
+		};
+		047E01241E8754AF005E9D8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047E01251E8754AF005E9D8A /* NetworkExtension.framework */,
+				C46EC2841A606FF98F8F1038 /* Pods_DajieVPN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B9FDCC4888C0178BA679E28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF2993984B3A1D323CE70C0 /* Pods-DajieVPN.debug.xcconfig */,
+				A71838A7557551E1493B4645 /* Pods-DajieVPN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047E01061E874FF5005E9D8A /* DajieVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047E01191E874FF5005E9D8A /* Build configuration list for PBXNativeTarget "DajieVPN" */;
+			buildPhases = (
+				BF818C60E8DC50DEE62B6B6F /* [CP] Check Pods Manifest.lock */,
+				047E01031E874FF5005E9D8A /* Sources */,
+				047E01041E874FF5005E9D8A /* Frameworks */,
+				047E01051E874FF5005E9D8A /* Resources */,
+				C935819B09A4C9E9A46FBAE1 /* [CP] Embed Pods Frameworks */,
+				D0DBF58C3371B8C76D3242F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DajieVPN;
+			productName = DajieVPN;
+			productReference = 047E01071E874FF5005E9D8A /* DajieVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047E00FF1E874FF5005E9D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DajieVPN;
+				TargetAttributes = {
+					047E01061E874FF5005E9D8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VJ9XJ78H9K;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 047E01021E874FF5005E9D8A /* Build configuration list for PBXProject "DajieVPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047E00FE1E874FF5005E9D8A;
+			productRefGroup = 047E01081E874FF5005E9D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047E01061E874FF5005E9D8A /* DajieVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047E01051E874FF5005E9D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047E01151E874FF5005E9D8A /* LaunchScreen.storyboard in Resources */,
+				041D9E7D1EA5F0380092F90D /* DVServerListCell.xib in Resources */,
+				041D9E791EA5EE660092F90D /* DVSocialShareView.xib in Resources */,
+				041D9E371EA317F20092F90D /* Assets.xcassets in Resources */,
+				047E01101E874FF5005E9D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF818C60E8DC50DEE62B6B6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C935819B09A4C9E9A46FBAE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DajieVPN/Pods-DajieVPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DBF58C3371B8C76D3242F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DajieVPN/Pods-DajieVPN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047E01031E874FF5005E9D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040904A81E934C1A003ECD95 /* Observer.swift in Sources */,
+				040904A91E934C1A003ECD95 /* VPNManager.swift in Sources */,
+				0409048F1E8CAF5D003ECD95 /* DVAdInterstitial.swift in Sources */,
+				040904BB1E964223003ECD95 /* UIViewController+RESideMenu.m in Sources */,
+				041D9E721EA5EE660092F90D /* DVRootViewController.swift in Sources */,
+				040904BA1E964223003ECD95 /* RESideMenu.m in Sources */,
+				041D9E761EA5EE660092F90D /* DVAboutUsViewController.swift in Sources */,
+				041D9E351EA317920092F90D /* DVConfig.swift in Sources */,
+				041D9E7F1EA600F30092F90D /* DVUserDefaultsConfig.swift in Sources */,
+				040904A61E934C1A003ECD95 /* Configuration.swift in Sources */,
+				041D9E781EA5EE660092F90D /* DVSocialShareView.swift in Sources */,
+				047E010B1E874FF5005E9D8A /* AppDelegate.swift in Sources */,
+				041D9E751EA5EE660092F90D /* DVLeftMenuViewController.swift in Sources */,
+				040904B91E964223003ECD95 /* RECommonFunctions.m in Sources */,
+				042200431E9B8D7800768051 /* GCSocial.m in Sources */,
+				040904A71E934C1A003ECD95 /* KeychainWrapper.swift in Sources */,
+				041D9E341EA317920092F90D /* DVColorConfig.swift in Sources */,
+				041D9E731EA5EE660092F90D /* DVFirstViewController.swift in Sources */,
+				041D9E741EA5EE660092F90D /* DVServerListViewController.swift in Sources */,
+				041D9E7C1EA5F0380092F90D /* DVServerListCell.swift in Sources */,
+				041D9E771EA5EE660092F90D /* DVHelpViewController.swift in Sources */,
+				041D9E711EA5EE660092F90D /* DVNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047E010E1E874FF5005E9D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047E010F1E874FF5005E9D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047E01131E874FF5005E9D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047E01141E874FF5005E9D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047E01171E874FF5005E9D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D Debug";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047E01181E874FF5005E9D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047E011A1E874FF5005E9D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF2993984B3A1D323CE70C0 /* Pods-DajieVPN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DajieVPN/DajieVPN.entitlements;
+				DEVELOPMENT_TEAM = VJ9XJ78H9K;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DajieVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D Debug";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.dajievpn.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DajieVPN/DajieVPN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		047E011B1E874FF5005E9D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71838A7557551E1493B4645 /* Pods-DajieVPN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DajieVPN/DajieVPN.entitlements;
+				DEVELOPMENT_TEAM = VJ9XJ78H9K;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DajieVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.dajievpn.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DajieVPN/DajieVPN-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047E01021E874FF5005E9D8A /* Build configuration list for PBXProject "DajieVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047E01171E874FF5005E9D8A /* Debug */,
+				047E01181E874FF5005E9D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047E01191E874FF5005E9D8A /* Build configuration list for PBXNativeTarget "DajieVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047E011A1E874FF5005E9D8A /* Debug */,
+				047E011B1E874FF5005E9D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047E00FF1E874FF5005E9D8A /* Project object */;
+}
